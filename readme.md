@@ -1,6 +1,6 @@
-# Sample Agents Code Interpreter
+# Sample Agents 
 
-This sample demonstrates how to use agent operations with code interpreter from the Azure Agents service using a synchronous client.
+This sample demonstrates how to use agent operations from the Azure Agents service using a synchronous client.
 
 ## Usage
 
