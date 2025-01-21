@@ -4,17 +4,23 @@ This sample demonstrates how to use agent operations with code interpreter from 
 
 ## Usage
 
-1. Install dependencies:
+1. **Sign in to Azure CLI**:
+   ```sh
+   az login --tenant <your-tenant-id>
+   ```
+
+2. Install dependencies:
     ```
     pip install -r requirements.txt
     ```
 
-2. Set these environment variables with your own values:
+3. Set these environment variables with your own values:
     - `PROJECT_CONNECTION_STRING`: The project connection string, as found in the overview page of your Azure AI Foundry project.
     -  MODEL DEPLOYMENT : gpt-4o
 
-3. Run the sample:
+4. Run the samples:
     ```
-    az login (I login to a custom tenant with az login --tenant xxxxxxx)
     python sample_agents_code_interpreter.py
+    python sample_agents_basics.py
+    python sample_agents_openapi.py
     ```
